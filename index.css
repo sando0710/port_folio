@@ -10,8 +10,10 @@ header {
 }
 
 main {
-  background-color: burlywood;
   height: 500px;
+  background-color: burlywood;
+  padding: 10px 0;
+  display: flex;
 }
 
 footer {
