@@ -153,6 +153,68 @@
 .animation1:hover a {
   color: rgb(48, 8, 7);
 }
+
+.skill {
+  background: #f9f9f9;
+}
+
+.skill .skill_content table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  background: white;
+}
+
+.skill .skill_content table tr {
+  border-bottom: solid 1px #eee;
+  cursor: pointer;
+}
+
+.skill .skill_content table tr:hover {
+  background-color: #d4f0fd;
+}
+
+.skill .skill_content table th, .skill .skill_content table td {
+  text-align: center;
+  width: 25%;
+  padding: 15px 0;
+}
+
+.skill .skill_content table td {
+  background-size: 25px;
+  background-position: left 70px center;
+  background-repeat: no-repeat;
+  padding-left: 20px;
+}
+
+.skill .skill_content table td.icon.html {
+  background-image: url("../images/html-5.png");
+}
+
+.skill .skill_content table td.icon.css {
+  background-image: url("../images/css-3.png");
+}
+
+.skill .skill_content table td.icon.js {
+  background-image: url("../images/javascript.png");
+}
+
+.skill .skill_content table td.icon.vue {
+  background-image: url("../images/vue.png");
+}
+
+.skill .skill_content table td.icon.nuxt {
+  background-image: url("../images/nuxt-icon.png");
+}
+
+.skill .skill_content table td.icon.firebase {
+  background-image: url("../images/firebase.png");
+}
+
+.skill .skill_content table td.icon.node {
+  background-image: url("../images/nodejs.png");
+}
+
 /* main2 */
 #main2-wrapper {
   background-color: rgba(190, 133, 143, 0.507);
