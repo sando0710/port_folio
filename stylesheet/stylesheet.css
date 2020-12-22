@@ -1,6 +1,6 @@
 /* header css */
 #header-wrapper {
-  background-image: url(../image/image04.jpg);
+  background-image: url(../images/image04.jpg);
   width: 100vw;
   height: 100vh;
   background-size: cover;
@@ -199,6 +199,14 @@
   background-image: url("../images/javascript.png");
 }
 
+.skill .skill_content table td.icon.ruby {
+  background-image: url("../images/Ruby.png");
+}
+
+.skill .skill_content table td.icon.rails {
+  background-image: url("../images/rails.png");
+}
+
 .skill .skill_content table td.icon.vue {
   background-image: url("../images/vue.png");
 }
@@ -217,7 +225,7 @@
 
 /* main2 */
 #main2-wrapper {
-  background-color: rgba(190, 133, 143, 0.507);
+  background-color: rgba(222, 231, 237, 0.452);
   /* height: 100vh; */
   width: 100vw;
 }
