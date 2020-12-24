@@ -8,7 +8,7 @@
 
 .header-mask {
   height: 100vh;
-  background-color: rgba(193, 198, 212, 0.459);
+  background-color: rgba(154, 196, 217, 0.459);
 }
 
 .header-container {
@@ -63,7 +63,7 @@
 
 /* main1 css */
 #main1-wrapper {
-  background-color: rgba(193, 198, 212, 0.459);
+  background-color: rgba(244, 245, 249, 0.459);
 }
 
 .main1-contents {
@@ -264,7 +264,7 @@
   padding: 10px 10px;
   display: flex;
   border:  1px solid rgba(128, 128, 128, 0.445);
-  background-color: rgba(197, 161, 168, 0.349);
+  background-color: rgba(244, 245, 249, 0.459);
 }
 
 .portfolio-content > a {
@@ -339,6 +339,82 @@
 
 .git-hub {
   margin-right: 10vw;
+}
+
+.contact {
+  padding: 70px 5%;
+  width: 40%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.contact .contact_title {
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.contact .contact_title h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.contact .contact_title p {
+  text-align: center;
+}
+
+.contact form {
+  height: auto;
+  width: 400px;
+  margin: 0 auto;
+}
+
+.contact form input {
+  width: 500px;
+  height: 50px;
+  padding: 1px 2px;
+  background: #E9CDC1;
+  border-radius: 5px;
+  border-style: none;
+  margin: 0 auto;
+}
+
+.contact form textarea {
+  width: 125%;
+  height: 150px;
+  border-style: none;
+  border-radius: 5px;
+  background: #E9CDC1;
+  margin-bottom: 20px;
+}
+
+.contact form button {
+  font-size: 16px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 30px;
+  width: 50%;
+  height: 50px;
+  color: white;
+  border-style: none;
+  background: black;
+  -webkit-transition: all 0.3s ease 0;
+  transition: all 0.3s ease 0;
+}
+
+.contact form button:hover {
+  background: #e65f78;
+}
+
+.contact .checkbox_posi {
+  position: relative;
+}
+
+.contact .check {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: -24px;
+  left: 200px;
 }
 
 .footer-contents > a > i {
